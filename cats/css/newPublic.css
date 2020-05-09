@@ -1,0 +1,12 @@
+.w1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+body{
+    font: normal normal 14px/2 "微软雅黑";
+    background-color: #eee;
+    color: #666;
+}
+.current{
+    color: #cc3333;
+}

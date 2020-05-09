@@ -1,0 +1,444 @@
+.section{
+    width: 100%;
+    height: 360px;
+}
+/* 平台数据  start */
+.plate{
+    background-color: #eee;
+    margin-right: -35px;
+}
+.plate h1{
+    padding-top: 35px;
+    font-size: 30px;
+    color: #000;
+    border-bottom:1px solid  #ccc;
+    text-align: center;
+    margin-bottom:39px ;
+}
+.plate h1 span{
+    position: relative;
+    top: 18px;
+    padding: 0 45px;
+    background-color: #eee;
+}
+.plate div{
+    position: relative;
+    float: left;
+    width: 308px;
+    height: 95px;
+    text-align: center;
+    margin-right: 23px;
+    padding-top: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.plate div p{
+    font-size: 18px;
+    line-height: 2;
+}
+.date1-icon,.date2-icon,.date3-icon{
+    position: absolute;
+    top: 26px;
+    left: 23px;
+    display: inline-block;
+    width: 48px;
+    height: 40px;
+    background: url(../image/index-sp2.png) no-repeat 0 -126px;
+}
+.date2-icon{
+    background-position: -121px -127px;
+}
+.date3-icon{
+    background-position: -240px -122px;
+}
+.date1:hover{
+    color: #cc3333;
+    background-color: #eee;
+}
+.date1:hover .date1-icon{
+    background-position: -3px -245px;
+}
+.date2:hover{
+    color: #cc3333;
+    background-color: #eee;
+}
+.date2:hover .date2-icon{
+    background-position: -132px -246px;
+}.date3:hover{
+    color: #cc3333;
+    background-color: #eee;
+}
+.date3:hover .date3-icon{
+    background-position: -250px -248px;
+}
+
+/* 平台数据  end */
+/* 安全保障页面  start */
+.safe{
+    background-color: #eee;
+    font-size: 14px;
+    color: #666;
+}
+.safe p{
+    padding-left: 16px;
+    float: right;
+    width: 174px;
+}
+.safe .big-p{
+    font-size: 24px;
+    color: #000;
+}
+.safe .w1000 h1{
+    padding-top: 50px;
+    font-size: 30px;
+    color: #000000;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 76px;
+}
+.safe .w1000 li{
+    position: relative;
+    float: left;
+    width: 286px;
+    height: 160px;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 39px;
+    margin-top: 32px;
+}
+.l1 .safe1-icon,.l2 .safe2-icon,.l3 .safe3-icon{
+    position: absolute;
+    top: -4px;
+    left: 11px;
+}
+
+.safe .w1000 h1 span{
+    position: relative;
+    top: 19px;
+    padding:0 150px ;
+    background-color: #eee;
+}
+.safe .w1000 .baozhang{
+    height: 158px;
+    width: 998px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+}
+.safe .w1000 .baozhang i{
+    display: inline-block;
+   
+    width: 96px;
+    height: 96px;
+    background: url(../image/index-sp2.png)no-repeat -3px -323px;
+}
+ .safe2-icon{
+    background-position: -122px -322px;
+}
+.safe3-icon{
+    background-position: -243px  -322px;
+}
+
+
+
+
+/* 安全保障页面  end */
+/* app 下载 start */
+.app{
+    height: 415px;
+    background-color: #fff;
+    padding-top: 60px;
+    margin-top: 60px;
+}
+.app .w1000{
+    background: url(../image/index_bg.png)no-repeat right top;
+}
+.app .w1000 div{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    line-height: 24px;
+}
+.dv-1{
+    margin: 0 87px 40px 140px;
+}
+.app h1{
+    font-size: 32px;
+    color: #000;
+    padding-bottom: 46px;
+}
+.app .w1000 div img{
+    width: 155px;
+    margin-bottom: 13px;
+}
+.info{
+    color: #666;
+    font-size: 16px;
+    width: 630px;
+    line-height: 2;
+}
+
+/* app 下载 end */
+/* 关于部分  start */
+.about{
+    padding: 50px 0;
+
+}
+.about .w1000{
+    width: 950px;
+    height: 490px;
+    padding: 25px;
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.about .w1000 h1{
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 22px;
+}
+.about .w1000 h3{
+    float: left;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.about .w1000 a{
+    float: right;
+    color: #000;
+
+}
+.about .about1 ul{
+    margin:10px 0 20px -42px ;
+    height: 150px;
+    width: 905px;
+}
+.about .about1 li{
+    width: 430px;
+    float: left;
+    line-height: 28px;
+}
+.about1 ul li a{
+    float: left;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.about1 ul li i{
+    position: relative;
+    left: 56px;
+    top: -2px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #cc3333;
+    border-radius: 50%;
+}
+.about1 ul li span{
+    float: right;
+}
+.about2 img{
+    height: 132px;
+}
+.about .about2 ul{
+    display: table;
+}
+.about .about2 li{
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    padding-right: 66px;
+}
+.about li p{
+    margin: 10px 0  0;
+
+}
+/* 关于部分  end */
+/* 底部  start */
+.footer{
+    background-color: #e2e2e2;
+    color: #666;
+    font-size: 14px;
+}
+.footer .w1000{
+    padding-top: 50px;
+    height: 230px;
+}
+.footer ul{
+    float: left;
+   
+}
+.footer .footer2{
+    margin:0 200px;
+}
+.footer .footer3{
+    margin-right:35px;
+}
+.footer .footer1 .kefu{
+    margin: 27px 0 13px;
+}
+.footer .footer1 .kefu strong{
+    font-size: 18px;
+    font-weight: normal;
+}
+.footer .footer1 i,.footer .footer1 strong{
+    padding-left: 10px;
+    font-style: normal;
+}
+.footer .footer1 .pl{
+    padding-left: 56px;
+}
+.footer .footer2 li{
+    width: 135px;
+    margin-bottom: 25px;
+}
+.footer .footer2 li span{
+    color: #ccc;
+    font-size:18px ;
+    margin: 0 8px;
+}
+.footer .footer2 li a{
+    display: inline-block;
+    color: #666;
+    /* width: 135px; */
+}
+.icon-iphone,.icon-Android{
+    display: block;
+    width: 88px;
+    height: 25px;
+    background: url(../image/index-sp1.png);
+    margin-top: 10px;
+}
+.icon-iphone{
+    background-position: 0  -214px;
+}
+.icon-Android{
+    background-position: 0 -287px;
+}
+.icon-iphone:hover{
+    background-position: 0  -178px;
+}
+.icon-Android:hover{
+    background-position: 0 -252px;
+}
+.footer .w1000 .erWeiMa{
+    display: inline-block;
+    clear: both;
+    width: 126px;
+    height: 126px;
+    background: url(../image/thumb_11469.png);
+    background-size: 126px 126px;
+    margin-left: 30px;
+}
+.footer .footer4{
+    text-align: center;
+    margin: 16px 0;
+}
+.footer .footer4 span i{
+    display: inline-block;
+    width: 83px;
+    height: 30px;
+    margin-right: 60px;
+}
+.chengxin,.Norton,.hangye,.ASIFI{
+    background: url(../image/index-sp1.png);
+}
+.chengxin{
+    background-position:0 -329px;
+}
+.Norton{
+    background-position:0 -374px;
+}
+.hangye{
+    background-position:0 -419px;
+}
+.ASIFI{
+    background-position:0 -456px;
+}
+.footer .copy{
+    text-align: center;
+}
+/* 底部  end */
+/* 侧边栏  start */
+.sideBar{
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    width: 50px;
+    height: 150px;
+    background-color: #f2f2f2;
+}
+.sideBar ul{
+    border: 1px solid #e8e8e8;
+    height: 146px;
+}
+.sideBar ul li{
+    border-top: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+.sideBar ul i,.sideBar ul a{
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    vertical-align: middle;
+    background: url(../image/index-sp1.png);
+}
+.sideBar ul li .icon-side1{
+    background-position:-7px -668px;
+}
+.sideBar ul li .icon-side2{
+    background-position:-9px -725px;
+}
+.sideBar ul li .icon-side3{
+    background-position:-8px -792px;
+}
+.sideBar .side1{
+    display: none;
+    width: 86px;
+    height: 86px;
+    background-color: #fff;
+    padding:10px ;
+    font-size: 12px;
+}
+.icon-hover1:hover .side1{
+    display: block;
+}
+.icon-hover2:hover .side2{
+    display: block;
+}
+.sideBar .side1 p{
+    line-height: 2;
+}
+.sideBar .side2{
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    padding: 5px 10px 0;
+    font-size: 12px;
+    /* text-align: center; */
+}
+.sideBar .side2 p{
+    line-height: 20px;
+}
+.side1,.side2{
+    position: absolute;
+    right: 49px;
+    top: 0px;
+}
+.sideBar .side2 img{
+    width: 80px;
+    height: 80px;
+}
+/* 侧边栏  end */

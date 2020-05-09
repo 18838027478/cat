@@ -1,0 +1,99 @@
+.current{
+    background-color: #f66;
+    color: #fff;
+}
+.new{
+    background-color: #eee;
+    font-size: 14px;
+    color: #667a;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.new a{
+    color: #667a;
+}
+.new .w1000 .two-father{
+    margin-top: 18px;
+    margin-bottom: 50px ;
+    height: 578px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.new .lbder{
+    padding-left: 25px;
+    border-right: 1px solid #ccc;
+    width: 186px;
+    height: 578px;
+}
+.new .w1000 .lbder dt span{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 19px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.new .w1000 .lbder dt{
+    font-size: 19px;
+    color: #000;
+    padding-left: 35px;
+    line-height: 50px;
+}
+.new .w1000 .lbder dd{
+    position: relative;
+    font-size: 16px;
+    line-height: 36px;
+    padding-left: 8px;
+}
+.two-father .lbder dd:hover {
+    background-color: #f66;
+    color: #fff;
+}
+.red{
+    position: absolute;
+    display: inline-block;
+    border: 7px solid transparent;
+    border-left: 7px solid #f66;
+    top: 11px;
+    right: -14px;
+}
+.rbder{
+    padding:28px 26px 0 54px ;
+}
+.rbder dl{
+    width: 706px;
+}
+.title{
+    font-size: 28px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.rbder dl{
+    margin-top: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px dotted #e4e4e4;
+   
+}
+.two-father .rbder dt{
+    font-size: 18px;
+    color: #000;
+}
+.new .w1000 .two-father .rbder dd{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.new .rbder span{
+    display: inline-block;
+    margin-right: 8px;
+    text-align: center;
+    width: 20px;
+    line-height: 20px;
+    background-color: #f99;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50%;
+}

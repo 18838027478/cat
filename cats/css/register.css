@@ -1,0 +1,89 @@
+.register{
+    background-color: #eee;
+    /* padding: 35px 0 48px; */
+    color: #666;
+}
+.register .w1000{
+    margin-top: 35px;
+    width: 950px;
+    height: 424px;
+    height: 500px;
+    padding: 17px 25px 59px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+    background: url("../image/login_banner.jpg") no-repeat 25px center;
+    background-color: #fff;
+
+}
+.register h1{
+    font-size: 24px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e4e4e4;
+}
+form{
+    margin-top: 25px;
+    float: right;
+    margin-right: -30px;
+    padding-right: 30px;
+}
+.register form label{
+    display: inline-block;
+    width: 94px;
+    height: 35px;
+    text-align: right;
+    margin-right: 20px;
+}
+.checkbox{
+    width: 13px;
+    margin: 0 5px 0 95px;
+    position: relative;
+    top: 9px;
+}
+input{
+    height: 35px;
+    width: 200px;
+    outline: none;
+    margin-top: 12px;
+    padding-left:24px ;
+    background: url(../image/login-sp.png)no-repeat 0px 6px;
+}
+.yanzheng{
+    background-position: 0px -76px;
+    width: 120px;
+    height: 35px;
+}
+img{
+    margin-left: 5px;
+    width: 75px;
+    height: 41px;
+    margin-top: -2px;
+    margin-right: 10px;
+}
+.xieyi{
+    font-size: 14px;
+    color:#cc6666 ;
+}
+button{
+    background-color: #ff6666;
+    font-size: 16px;
+    width: 252px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 12px 0 12px 92px;
+    border-radius: 5px;
+    border: 0;
+}
+button:hover{
+    background-color: #c66;
+    
+}
+.register .w1000 .sp{
+    margin-left: 92px;
+
+}
+.denglu{
+    font-size: 16px;
+    color:#cc3333 ;
+}

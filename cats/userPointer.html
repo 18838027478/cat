@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>聚财猫</title>
+    <link rel="short icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/userPoniter.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+    <div class="new">
+        <div class="w1000">
+            <a href="./index.html">首页></a>
+            <div class="two-father clearfix">
+                <div class="lbder lf">
+                    <dl>
+                        <dt><span>?</span>帮助中心</dt>
+                        <dd class="current"><i class="red"></i>支付及绑卡问题</dd>
+                        <dd class="d1"><i class="red hide"></i>APP使用问题</dd>
+                        <dd class="d2"><i class="red hide"></i>用户信息变更申请</dd>
+                    </dl>
+                    <dl>
+                        <dt><span>!</span>操作演示</dt>
+                        <dd class="d3"><i class="red hide"></i>新手上路</dd>
+                    </dl>
+                </div>
+                <div class="rbder rf">
+                    <dl style="margin-top: 0;border-bottom: 0;">
+                        <dt class="title">APP的使用问题</dt>
+                    </dl>
+                    <dl>
+                        <dt><span>?</span>登录密码忘记怎么办？</dt>
+                        <dd>第一种：未登录状态，登录页面输入手机号码，点击下一步，输入登录密码，点击忘记密码会收取由聚财猫给你发送的验证码。输入验证码，输入新的密码（密码需大于等于6位），点击确认；</dd>
+                        <dd>第二种：已登录状态，点击设置，退出登录，重新登录，按照第一种情况操作</dd>
+                    </dl>
+                    <dl>
+                        <dt><span>?</span>如何邀请好友</dt>
+                        <dd>登录手机客户端>更多>邀请好友>立即邀请，点击立即邀请，悬着发送平台，选着发送给需要邀请的好友即可。</dd>
+                    </dl>
+                    <dl>
+                        <dt><span>?</span>如何邀请好友</dt>
+                        <dd>登录手机客户端>更多>邀请好友>立即邀请，点击立即邀请，悬着发送平台，选着发送给需要邀请的好友即可。</dd>
+                    </dl>
+                    <dl style="border-bottom: 0;">
+                        <dt><span>?</span>如何邀请好友</dt>
+                        <dd>登录手机客户端>更多>邀请好友>立即邀请，点击立即邀请，悬着发送平台，选着发送给需要邀请的好友即可。</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">//注意，使用jq事件委托必须是1.8以上版本</script>
+<script>
+    $(".lbder dl dd ").on("click",function(){
+        $(".lbder dl dd").removeClass("current")
+        $(this).addClass("current")
+        $(".lbder dl dd .red").hide()
+        $(this).find(".red").show()
+    })
+</script>
+</html>

@@ -1,0 +1,269 @@
+body{
+    background-color: #eee;
+    color: #666;
+    font-size:14px ;
+}
+.nav{
+    height: 156px;
+}
+.nav .w1000 ul{
+    display: table;
+    width: 1000px;
+}
+.nav .w1000 li{
+    display: table-cell;
+    width: 12.5%;
+    text-align: center;
+}
+.nav .w1000 li:hover{
+    color: #cc3333;
+}
+.nav .w1000 li i{
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    margin: 28px 0 12px;
+    background: url(../image/index-sp2.png)-202px -581px;
+}
+.nav .w1000 li span{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+}
+.nav .w1000 .icon-2{
+    background-position: -202px -681px;
+}
+.nav .w1000 .icon-3{
+    background-position: -202px -782px;
+}
+.nav .w1000 .icon-4{
+    background-position: -202px -880px;
+}
+.nav .w1000 .icon-5{
+    background-position: -202px -681px;
+}
+.nav .w1000 .icon-6{
+    background-position: -202px -681px;
+}
+.nav .w1000 .icon-7{
+    background-position: -202px -681px;
+}
+.nav .w1000 .icon-8{
+    background-position: -202px -681px;
+}
+/* -------------公司简介  start-------------- */
+.intro .w1000{
+    height: 652px;
+    width: 920px;
+    padding: 20px 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.intro h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.intro1 p{
+    line-height: 2;
+    text-indent: 2em;
+
+}
+.intro1 .text{
+    padding: 20px 0 16px;
+}
+.intro2 .move{
+    position: relative;
+    width: 520px;
+    height: 325px;
+    background: url(../image/wen.jpg);
+    background-size: contain;
+}
+.border{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 520px;
+    height: 30px;
+    background-color: #000;
+}
+.play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -26.5px;
+    margin-top: -26.5px;
+    width: 52px;
+    height: 48px;
+    background: url(../image/play.png);
+    background-size: contain;
+}
+.yinyin{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 520px;
+    height: 295px;
+    background: rgba(0,0,0, .8);
+}
+.intro2 .rf span{
+    display: inline-block;
+    width: 184px;
+    margin: 32px 122px 0 0;
+}
+.intro2 span{
+    display:inline-block;
+    margin-left: 174px;
+    width: 204px;
+}
+.intro2 img{
+    width: 226px;
+    height: 90px;
+    /* margin-left: 160px; */
+}
+/* -------------公司简介  end-------------- */
+/* -------------荣誉  start-------------- */
+.honor .w1000{
+    width: 920px;
+    height: 782px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: #fff;
+    margin: 20px auto 50px;
+    padding: 0 40px;
+
+}
+.honor h1{
+    font-size: 30px;
+    padding:22px 0 19px ;
+    border-bottom: 1px solid #ccc;
+}
+.honor .w1000 ul{
+    display: table;
+    margin: 10px 0 10px;
+}
+.honor .w1000 li{
+    display: table-cell;
+    width: 24%;
+    height: 150px;
+    text-align: center;
+}
+
+.honor .w1000 li img{
+    width: 148px;
+    height: 103px;
+}
+.honor .w1000 li p{
+    padding-top: 5px;
+}
+/* -------------荣誉  end-------------- */
+/* -------------公司历程  start-------------- */
+.journey .w1000{
+    width: 920px;
+    height: 782px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: #fff;
+    padding:25px 38px 40px ;
+    margin-bottom:20px ;
+}
+.journey .w1000 h1{
+    font-size: 30px;
+    padding-bottom: 19px ;
+    border-bottom: 1px solid #ccc;
+}
+.journey .w1000 .ul-father{
+    padding-top: 28px;
+    padding-left: 75px;
+}
+.journey .w1000 .ul-father li{
+    position: relative;
+}
+ .ul-father i{
+    position: absolute;
+    top: 8px;
+    left: -76px;
+    display: inline-block;
+    width: 44px;
+    height: 36px;
+    background: url(../image/index-sp2.png)-219px -603px;
+}
+.ul-father .icon-journey2,.ul-father .icon-journey4,.ul-father .icon-journey6{
+    background-position: -221px -700px;
+}
+.ul-father .icon-journey3,.ul-father .icon-journey5{
+    background-position:-222px -802px;
+}
+.journey .w1000 .ul-father p{
+    display: inline-block;
+    width: 690px;
+}
+.journey .w1000 .ul-father li{
+    width: 826px;
+    height: 68px;
+    border-left: 1px solid #ff3322;
+}
+.journey .w1000 .ul-father span{
+    position: relative;
+    left: -28px;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #df869a;
+    border-radius: 50%;
+    background-color: #fff;
+}
+/* .journey .w1000 .ul-father p,.journey .w1000 .ul-father span {
+    float: left;
+} */
+
+
+
+/* -------------公司历程  end-------------- */
+/* -------------联系我们  start-------------- */
+.contact .w1000{
+    width: 928px;
+    height: 327px;
+    padding: 16px 36px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+
+}
+.contact .w1000 a{
+    color: #cc6666;
+}
+.contact h1{
+    font-size: 30px;
+    padding-bottom: 14px ;
+    border-bottom: 1px solid #ccc
+}
+.contact h1 span{
+    background-color: #b0b0b0;
+    color: #fff;
+
+}
+.contact-first{
+    margin: 16px 0 12px;
+}
+.contact .dlParent{
+    display: flex;
+}
+.contact dl {
+    flex: 1;
+    float: left;
+    padding-right: 32px;
+}
+.contact dl dt{
+    line-height: 37px;
+    padding-left: 39px;
+}
+
+/* -------------联系我们    end-------------- */

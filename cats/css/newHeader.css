@@ -1,0 +1,226 @@
+/* --------------------top start---------------- */
+.top{
+    height: 29px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.top .w1000{
+
+}
+.top ul li{
+    float: left;
+}
+.top .w1000 i,.top .w1000 .lf a{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../image/index-sp1.png)no-repeat;
+}
+.top .w1000 .lf li{
+    margin-right: 20px;
+}
+.top .w1000 .lf li span{
+    margin-left: 10px;
+}
+.top .w1000 .icon-hotline{
+    background-position: -5px -6px;
+}
+.top .w1000 .icon-wx{
+    background-position: -6px -34px;
+}
+.top .w1000 .icon-wx:hover{
+    background-position: -45px -35px;
+}
+.top .w1000 .wx-father:hover .wx{
+    display: block;
+}
+.top .w1000 .icon-qq{
+    background-position: -6px -63px;
+}
+.top .w1000 .icon-qq:hover{
+    background-position: -49px -63px;
+}
+.top .w1000 .qq-father:hover .qq{
+    display: block;
+}
+.top .w1000 .lf .icon-wb{
+    background-position: -5px -93px;
+}
+.top .w1000 .lf .icon-wb:hover{
+    background-position: -46px -93px;
+}
+.top .w1000 .lf .icon-tb{
+    background-position: -5px -122px;
+}
+.top .w1000 .lf .icon-tb:hover{
+    background-position: -47px -123px;
+}
+.top .w1000 .icon-phone{
+    background-position: -50px -9px;
+}
+.top .w1000 .icon-phone:hover{
+    background-position: -51px -147px;
+}
+.top .w1000 .icon-tri{
+    background: url(../image/h_arrow.png)no-repeat;
+    position: absolute;
+    left: 80px;
+    top: -8px;
+}
+.top .w1000 .icon-tri2{
+    background: url(../image/h_arrow.png)no-repeat;
+    position: absolute;
+    left: 65px;
+    top: -8px;
+}
+.wx-father{
+    position: relative;
+}
+.qq-father{
+    position: relative;
+}
+.wx{
+    display: none;
+    position: absolute;
+    left: -83px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.qq{
+    display: none;
+    position: absolute;
+    left:-66px ;
+    width: 150px;
+    height: 65px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.qq p{
+    line-height: 20px;
+    
+}
+.wx img{
+    width: 120px;
+    height: 120px;
+}
+.top .w1000 .rf a{
+    color: #666;
+}
+.top .w1000 a:hover{
+    color: #cc3333;
+}
+.top .w1000 .rf span{
+    margin: 5px;
+    font-size: 14px;
+}
+/* --------------------top end---------------- */
+/* --------------------logo start---------------- */
+.logo{
+    background-color: #fff;
+    height: 100px;
+    color: #666;
+    font-size: 16px;
+}
+.logo h1{
+    display: inline-block;
+    padding-top: 10px;
+}
+.logo h1 a{
+    display: inline-block;
+    width: 123px;
+    height: 70px;
+    text-indent: -999px;
+    background: url(../image/nav_logo.png);
+}
+.logo .nav li{
+    float: left;
+    padding-top: 52px;
+}
+.logo .nav li a{
+    display: inline-block;
+    color: #666;
+    padding: 0 12px 5px;
+    margin-right: 2px;
+
+}
+/* --------------------logo end---------------- */
+
+
+
+
+
+/* --------------------safe start---------------- */
+.safe h1{
+    font-size: 30px ;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    text-align: center;
+    /* margin-bottom: 76px; */
+}
+.safe h1 span{
+    display: inline-block;
+    padding: 0 150px;
+    background-color: #eee;
+    position: relative;
+    top: 26px;
+}
+.safe  .w1000 div{
+    margin-top: 76px;
+    height: 160px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.safe .w1000 ul{
+    display: table;
+}
+.safe .w1000 li{
+    float: left;
+    display: table-cell;
+    width: 33.3%;
+}
+.safe  .w1000 p{
+    float: right;
+    width: 172px;
+    font-size: 14px;
+    line-height: 2;
+    margin-right: 28px;
+}
+.safe  .w1000 ul li .first-p{
+    margin-top:32px ;
+    font-size: 24px;
+    color: #000;
+}
+.safe .safe-icon1,.safe .safe-icon2,.safe .safe-icon3{
+    position: relative;
+    top: 32px;
+    left: 32px;
+    float: left;
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background: url(../image/index-sp2.png)-3px -323px;
+}
+.safe .safe-icon2{
+    background-position: -122px -322px;
+}
+.safe .safe-icon3{
+    background-position: -243px -322px;
+}
+.safe .safe-icon1:hover{
+    background-position: -2px -453px;
+}
+.safe .safe-icon2:hover{
+    background-position: -121px -452px;
+}
+.safe .safe-icon3:hover{
+    background-position: -243px -451px;
+}
+/* --------------------safe end---------------- */
